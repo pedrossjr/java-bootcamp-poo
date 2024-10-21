@@ -1,10 +1,7 @@
 package br.com.github.pedrossjr.dominio;
 
 import java.time.LocalDate;
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.Objects;
-import java.util.Set;
+import java.util.*;
 
 public class Bootcamp {
     private String nome;
@@ -13,6 +10,7 @@ public class Bootcamp {
     private LocalDate dataFinal = dataInicial.plusDays(45);
     private Set<Dev> devsInscritos = new HashSet<>();
     private Set<Conteudo> conteudos = new LinkedHashSet<>();
+    private List<Curso> cursos = new ArrayList<>();
 
     public String getNome() {
         return nome;

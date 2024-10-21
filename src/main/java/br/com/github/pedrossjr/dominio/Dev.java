@@ -29,6 +29,13 @@ public class Dev {
                 .sum();
     }
 
+    public int calcularHorasBootcamp(){
+
+
+
+        return 0;
+    }
+
     public String getNome() {
         return nome;
     }
